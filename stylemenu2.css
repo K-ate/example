@@ -1,0 +1,134 @@
+
+
+.con1 {
+    position: relative;   
+    text-align: center;
+    
+    width: 680px;
+    height: 440px;
+
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    display: grid;
+
+    padding: 0px;
+    gap: 10px;
+
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 400px;
+    grid-template-areas:
+      "c2 c3 c4";
+  }
+
+  .con {
+    position: relative;
+    padding: 0px;
+    border-radius: 6%;
+  }
+
+  .con.con2 {
+    grid-area: c2;
+    background: url('koloda/koloda2.jpg');
+    background-size:cover;
+  }
+  .con.con3 {
+    grid-area: c3;
+    background: url('koloda/koloda3.jpg');
+    background-size: cover;
+  }
+  .con.con4 {
+    grid-area: c4;
+    background: url('koloda/koloda4.jpg');
+    background-size: cover;
+  }
+
+  .con.con5 {
+    grid-area: c2;
+    background: url('koloda/koloda5.jpg');
+    background-size:cover;
+  }
+  .con.con6 {
+    grid-area: c3;
+    background: url('koloda/koloda6.jpg');
+    background-size: cover;
+  }
+  .con.con7 {
+    grid-area: c4;
+    background: url('koloda/koloda7.jpg');
+    background-size: cover;
+  }
+
+  .con.con8 {
+    grid-area: c2;
+    background: url('koloda/koloda8.jpg');
+    background-size:cover;
+  }
+  .con.con9 {
+    grid-area: c3;
+    background: url('koloda/koloda9.jpg');
+    background-size: cover;
+  }
+  .con.con10 {
+    grid-area: c4;
+    background: url('koloda/koloda10.jpg');
+    background-size: cover;
+  }
+  .con.con11 {
+    grid-area: c2;
+    background: url('koloda/koloda11.jpg');
+    background-size:cover;
+  }
+  .con.con12 {
+    grid-area: c3;
+    background: url('koloda/koloda12.jpg');
+    background-size: cover;
+  }
+  .con.con13 {
+    grid-area: c4;
+    background: url('koloda/koloda13.jpg');
+    background-size: cover;
+  }
+
+  @media (max-width: 1050px){
+    .con1 {
+        position: relative;   
+        text-align: center;
+        width: 545px;
+        height: 335px;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        display: grid;
+        gap: 10px;
+    
+        grid-template-columns: 175px 175px 175px;
+        grid-template-rows: 320px;
+        grid-template-areas:
+        "c2 c3 c4";
+      }
+    }
+
+
+    
+
+    @media (max-width: 600px){
+           .con1 {
+            position: relative;   
+            text-align: center;
+            width: 220px;
+            height: 1240px;
+            left: 50%;
+            top: 0px;
+            transform: translateX(-50%);
+            display: grid;
+            gap: 10px;
+        
+            grid-template-columns: 220px ;
+            grid-template-rows: 400px 400px 400px;
+            grid-template-areas:
+              "c2"
+              "c3"
+              "c4";;
+          }
+    }
