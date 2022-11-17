@@ -132,3 +132,25 @@
               "c4";;
           }
     }
+
+    @media (max-width: 250px){
+
+      .con1 {
+        position: relative;   
+        text-align: center;
+        width: 100px;
+        height: 580px;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        display: grid;
+        gap: 10px;
+    
+        grid-template-columns: 100px ;
+        grid-template-rows: 180px 180px 180px;
+        grid-template-areas:
+          "c2"
+          "c3"
+          "c4";;
+      }
+}         
