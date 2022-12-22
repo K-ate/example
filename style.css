@@ -10,40 +10,6 @@
 }
 
 
-/* _______________________________________________________ */
-/* .logo{
-  width: 100px;
-  height: 100px;
-  position: absolute;
-
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 50%;
-}
-
-.cir1 {
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    left: 2.5%;
-    top: 2.5%;
-    background: var(--borderco2);
-    border-radius: 50px;
-    border: 2px solid var(--textcol);
-}
-
-.cir2 {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  left: 7.5%;
-  top: 7.5%;
-  background: var(--borderco2);
-  border-radius: 50px;
-  border: 2px solid var(--textcol);
-} */
-/* _______________________________________________________ */
 
 .logo{
     position:absolute;
@@ -94,9 +60,6 @@ body {
     margin-bottom: 6px;
     background: url('fon.jpg');
     background-size: cover;
-
-
-
   }
 
   .name{
@@ -237,6 +200,7 @@ body {
     margin-bottom: 1.5em;
     padding: 0%;
   }
+
 
   .textcont{
 
